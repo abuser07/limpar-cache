@@ -7,6 +7,7 @@ echo.
 
 :: Limpando arquivos temporários do sistema e do usuário
 echo Limpando arquivos temporários...
+del /q /f /s C:\servidores\cash\* 2>nul
 del /q /f /s %TEMP%\* 2>nul
 del /q /f /s C:\Windows\Temp\* 2>nul
 
